@@ -1,0 +1,66 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  color: #000;
+  font-size: 24px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.info-section, .report-section, .image-section {
+  margin-bottom: 20px;
+}
+
+.info, .report-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  border: 1px solid #000;
+  padding: 10px;
+  flex-basis: 30%;
+}
+
+.value {
+  border: 1px solid #000;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-container img {
+  width: calc(50% - 5px);
+  /* Adjust width as necessary */
+  height: auto;
+  /* Adjust height as necessary */
+  border: 1px solid #000;
+}
